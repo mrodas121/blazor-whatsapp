@@ -1,0 +1,9 @@
+﻿.landingButton {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 70px;
+    height: 70px;
+    background: #00a984;
+    border-radius: 50%;
+}

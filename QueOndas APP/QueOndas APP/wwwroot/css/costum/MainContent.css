@@ -1,0 +1,13 @@
+﻿.MainContentChild {
+    color: #e2e8ee;
+    margin-top: 90px;
+    width: 100%;
+    max-width: 900px;
+    overflow-x: hidden;
+}
+.MainContentContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

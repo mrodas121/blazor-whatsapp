@@ -1,0 +1,59 @@
+﻿.NavBarFixedCostum {
+    color: #86939c;
+    Background: #1f2c34;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.NavBarFixedCostum a {
+    float: left;
+    display: block;
+    color: #8c99a1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:18px;
+}
+.NavBarFixedCostum img {
+    height: 28px;
+    display: block;
+    float: right;
+    margin:10px;
+}
+.NavBarFixedCostum a:hover {
+    color: #03a784;
+}
+
+.SecondNavBarFixedCostum {
+    color: #86939c;
+    Background: #1f2c34;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 55px;
+}
+
+.SecondNavBarFixedCostum a {
+    display: block;
+    color: #8c99a1;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.SecondNavBarFixedCostum a:hover ~ .divAlert {
+    background: #03a784;
+}
+
+.divAlert {
+    width: 100%;
+    height: 5px
+}
+.SecondNavBarFixedCostum a:hover {
+    color: #03a784;
+}
+.SecondNavBarFixedCostum table {
+    width: 100%;
+}

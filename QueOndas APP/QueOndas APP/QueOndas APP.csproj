@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>QueOndas_APP</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\costum\MainContent.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\costum\MainContent.css" />
+    <None Include="wwwroot\css\costum\NavigationBar.css" />
+  </ItemGroup>
+
+</Project>

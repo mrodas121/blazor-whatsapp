@@ -1,0 +1,37 @@
+﻿.ShortCutChat {
+    color: #e0e6ec;
+    font-size: 14px;
+    padding-top:20px;
+}
+.dateMessage {
+    color: #8c99a1;
+    font-size: 15px;
+    text-align: right;
+}
+.Message {
+    color: #8c99a1;
+    font-size: 12px;
+    padding: 0px;
+}
+.User {
+    padding: 0px;
+}
+.ShortCutChatImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ProfilePicture {
+    border-radius: 50%;
+    width:60px;
+}
+
+.MessageStatusContainer img {
+    height: 15px;
+}
+
+.MessageStatusContainer{
+    padding:0px;
+    text-align:center;
+}
+

@@ -59,3 +59,64 @@ C:\Users\Manuel Rodas\source\repos\QueOndas APP\QueOndas APP\obj\Debug\net5.0\sc
 C:\Users\Manuel Rodas\source\repos\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Shared\ContentNavMenu.razor.g.cs
 C:\Users\Manuel Rodas\source\repos\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Shared\ContentNavMenu.razor.g.cs
 C:\Users\Manuel Rodas\source\repos\QueOndas APP\QueOndas APP\obj\Debug\net5.0\scopedcss\Shared\ContentNavMenu.razor.rz.scp.css
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\appsettings.json
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\QueOndas APP.exe
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\QueOndas APP.StaticWebAssets.xml
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\QueOndas APP.deps.json
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\QueOndas APP.runtimeconfig.json
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\QueOndas APP.runtimeconfig.dev.json
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\QueOndas APP.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\ref\QueOndas APP.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\QueOndas APP.pdb
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\QueOndas APP.Views.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\QueOndas APP.Views.pdb
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.csprojAssemblyReference.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.AssemblyInfoInputs.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.AssemblyInfo.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.csproj.CoreCompileInputs.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.RazorComponent.input.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Shared\ContentNavMenu.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Shared\PrincipalNavMenu.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.RazorComponent.output.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\QueOndas APP.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.TagHelpers.input.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.TagHelpers.output.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.RazorCoreGenerate.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\App.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Shared\ContentNavMenu.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Shared\PrincipalNavMenu.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.RazorAssemblyInfo.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.RazorAssemblyInfo.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\staticwebassets\QueOndas APP.StaticWebAssets.Manifest.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\staticwebassets\QueOndas APP.StaticWebAssets.xml
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\scopedcss\Shared\ContentNavMenu.razor.rz.scp.css
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\scopedcss\Shared\PrincipalNavMenu.razor.rz.scp.css
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\scopedcss\bundle\QueOndas APP.styles.css
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\scopedcss\projectbundle\QueOndas APP.bundle.scp.css
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.RazorTargetAssemblyInfo.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.RazorTargetAssemblyInfo.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.Views.pdb
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\ref\QueOndas APP.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.pdb
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.genruntimeconfig.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.csproj.CopyComplete

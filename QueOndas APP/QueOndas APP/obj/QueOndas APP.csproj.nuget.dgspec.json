@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Manuel Rodas\\source\\repos\\QueOndas APP\\QueOndas APP\\QueOndas APP.csproj": {}
+    "C:\\Users\\Manuel Rodas\\source\\repos\\blazor-whatsapp\\QueOndas APP\\QueOndas APP\\QueOndas APP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Manuel Rodas\\source\\repos\\QueOndas APP\\QueOndas APP\\QueOndas APP.csproj": {
+    "C:\\Users\\Manuel Rodas\\source\\repos\\blazor-whatsapp\\QueOndas APP\\QueOndas APP\\QueOndas APP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Manuel Rodas\\source\\repos\\QueOndas APP\\QueOndas APP\\QueOndas APP.csproj",
+        "projectUniqueName": "C:\\Users\\Manuel Rodas\\source\\repos\\blazor-whatsapp\\QueOndas APP\\QueOndas APP\\QueOndas APP.csproj",
         "projectName": "QueOndas APP",
-        "projectPath": "C:\\Users\\Manuel Rodas\\source\\repos\\QueOndas APP\\QueOndas APP\\QueOndas APP.csproj",
+        "projectPath": "C:\\Users\\Manuel Rodas\\source\\repos\\blazor-whatsapp\\QueOndas APP\\QueOndas APP\\QueOndas APP.csproj",
         "packagesPath": "C:\\Users\\Manuel Rodas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Manuel Rodas\\source\\repos\\QueOndas APP\\QueOndas APP\\obj\\",
+        "outputPath": "C:\\Users\\Manuel Rodas\\source\\repos\\blazor-whatsapp\\QueOndas APP\\QueOndas APP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Manuel Rodas\\AppData\\Roaming\\NuGet\\NuGet.Config",

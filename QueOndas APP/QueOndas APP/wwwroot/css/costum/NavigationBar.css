@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 .NavBarFixedCostum a {
     float: left;
@@ -33,6 +34,7 @@
     top: 0;
     width: 100%;
     margin-top: 55px;
+    z-index:100;
 }
 
 .SecondNavBarFixedCostum a {
@@ -42,14 +44,29 @@
     text-decoration: none;
     font-size: 14px;
 }
+    .SecondNavBarFixedCostum img {
+        height: 28px;
+    }
 
+.SecondNavBarFixedCostum div {
+
+    padding: 0px;
+
+}
 .SecondNavBarFixedCostum a:hover ~ .divAlert {
     background: #03a784;
 }
-
+.SecondNavBarFixedCostum a:hover ~ .divAlertIcon {
+    background: #03a784;
+}
 .divAlert {
     width: 100%;
-    height: 5px
+    height: 5px;
+    margin-top: 6px
+}
+.divAlertIcon {
+    width: 100%;
+    height: 5px;
 }
 .SecondNavBarFixedCostum a:hover {
     color: #03a784;

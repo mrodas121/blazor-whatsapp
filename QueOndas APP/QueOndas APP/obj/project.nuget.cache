@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FpOs94GxvsN9WhXIdVIfCbmyWIz0K9AvqBcwMy9zgYc+e9ufiEXzTcgqP74ivb8zyZ1gXQyxto1Ksv2jLpunrQ==",
+  "dgSpecHash": "sBfeZkkw/n6p3BE+Izt2z8rpxcOtz/SQndDa5gj8ZQqi7EBMvhsCN9YGzMZCPGlQRAcKFfrXxIPLIpWg5xd3LA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Manuel Rodas\\source\\repos\\QueOndas APP\\QueOndas APP\\QueOndas APP.csproj",
+  "projectFilePath": "C:\\Users\\Manuel Rodas\\source\\repos\\blazor-whatsapp\\QueOndas APP\\QueOndas APP\\QueOndas APP.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -120,3 +120,7 @@ C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj
 C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.pdb
 C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.genruntimeconfig.cache
 C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\QueOndas APP.csproj.CopyComplete
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Pages\Estados.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Pages\Estados.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Pages\Llamadas.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Pages\Llamadas.razor.g.cs

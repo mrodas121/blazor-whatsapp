@@ -2,8 +2,26 @@
     position: fixed;
     bottom: 15px;
     right: 15px;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background: #00a984;
     border-radius: 50%;
+}
+
+.landingButton img {
+    width: 35px;
+}
+
+.landingButtonEdit {
+    position: fixed;
+    bottom: 86px;
+    right: 22px;
+    width: 48px;
+    height: 48px;
+    background: #233239;
+    border-radius: 50%;
+}
+
+.landingButtonEdit img {
+    width: 22px;
 }

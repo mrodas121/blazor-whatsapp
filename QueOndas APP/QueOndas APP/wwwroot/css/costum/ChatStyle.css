@@ -37,3 +37,22 @@
     text-align:center;
 }
 
+.MessageReciente {
+    color: #8c99a1;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ShortCutChatImgContainerStatus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    padding-left: 18px;
+}
+
+.ShortCutChatImgContainerStatus img {
+    border: 4px solid;
+    border-color: #26a282;
+}

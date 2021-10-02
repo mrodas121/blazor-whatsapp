@@ -83,6 +83,13 @@ using QueOndas_APP.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 11 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\_Imports.razor"
+using Models.Configuration;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\Pages\FetchData.razor"
 using QueOndas_APP.Data;
 

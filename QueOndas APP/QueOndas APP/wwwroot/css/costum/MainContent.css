@@ -5,6 +5,14 @@
     max-width: 900px;
     overflow-x: hidden;
 }
+
+.MainContentChildFullScreen {
+    color: #e2e8ee;
+    width: 100%;
+    max-width: 900px;
+    overflow-x: hidden;
+}
+
 .MainContentContainer {
     width: 100%;
     display: flex;

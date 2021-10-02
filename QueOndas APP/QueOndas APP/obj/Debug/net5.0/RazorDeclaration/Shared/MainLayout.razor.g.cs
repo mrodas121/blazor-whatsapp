@@ -82,13 +82,38 @@ using QueOndas_APP.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class MainLayout : LayoutComponentBase
+#nullable restore
+#line 11 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\_Imports.razor"
+using Models.Configuration;
+
+#line default
+#line hidden
+#nullable disable
+    public partial class MainLayout : LayoutComponentBase, IDisposable
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 16 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\Shared\MainLayout.razor"
+       
+    protected override void OnInitialized()
+    {
+        AppState.OnChange += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        AppState.OnChange -= StateHasChanged;
+    }
+
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AppState AppState { get; set; }
     }
 }
 #pragma warning restore 1591

@@ -1,10 +1,27 @@
 ﻿@inherits LayoutComponentBase
+@inject AppState AppState
+@implements IDisposable
+
 <div class="page">
-    <PrincipalNavMenu />
-    <ContentNavMenu/>
+    @if (!AppState.hideNavBars)
+    {
+        <PrincipalNavMenu />
+        <ContentNavMenu />
+    }
     <div class="MainContentContainer">
-        <div class="MainContentChild">
-            @Body
-        </div>
+        @Body
     </div>
 </div>
+
+@code {
+    protected override void OnInitialized()
+    {
+        AppState.OnChange += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        AppState.OnChange -= StateHasChanged;
+    }
+
+}

@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using QueOndas_APP.Data;
+using QueOndas_APP.Models.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,7 @@ namespace QueOndas_APP
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddScoped<AppState>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

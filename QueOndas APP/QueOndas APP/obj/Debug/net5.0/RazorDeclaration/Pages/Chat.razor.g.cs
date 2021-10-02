@@ -89,8 +89,8 @@ using Models.Configuration;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/chat")]
+    public partial class Chat : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -98,20 +98,23 @@ using Models.Configuration;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 119 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\Pages\Index.razor"
+#line 8 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\Pages\Chat.razor"
        
-
-    public void GoChat()
+    protected override async Task OnInitializedAsync()
+    {
+        AppState.hide(true);
+    }
+    public void ReturnIndex()
     {
         AppState.hide(false);
-        NavManager.NavigateTo("/chat");
+        NavManager.NavigateTo("/");
     }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AppState AppState { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AppState AppState { get; set; }
     }
 }
 #pragma warning restore 1591

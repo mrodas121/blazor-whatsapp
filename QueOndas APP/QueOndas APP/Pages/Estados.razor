@@ -1,7 +1,6 @@
 ﻿@page "/estados"
-@inject AppState AppState
-@inject NavigationManager NavManager
-<div class="MainContentChildFullScreen">
+
+<div class="MainContentChild">
     <div class="row ShortCutChat ">
         <div class="col-3 ShortCutChatImgContainer">
             <img class="ProfilePicture" src="/img/pictures/principal.jpg" />
@@ -58,17 +57,9 @@
             </div>
         </div>
     </div>
-    <button type="button" class="btn landingButtonEdit" @onclick="() => ReturnIndex()"><img src="/img/edit.PNG" /></button>
+    <button type="button" class="btn landingButtonEdit"><img src="/img/edit.PNG" /></button>
     <button type="button" class="btn landingButton"><img src="/img/cameraIco.PNG" /></button>
 </div>
 @code {
-    protected override async Task OnInitializedAsync()
-    {
-        AppState.hide(true);
-    }
-    public void ReturnIndex()
-    {
-        AppState.hide(false);
-        NavManager.NavigateTo("/");
-    }
+
 }

@@ -89,6 +89,13 @@ using Models.Configuration;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\_Imports.razor"
+using Models;
+
+#line default
+#line hidden
+#nullable disable
     public partial class PrincipalNavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

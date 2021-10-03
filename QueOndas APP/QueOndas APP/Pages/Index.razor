@@ -2,122 +2,71 @@
 @inject NavigationManager NavManager
 @inject AppState AppState
 <div class="MainContentChild">
-    <div class="row ShortCutChat " @onclick="() => GoChat()">
-        <div class="col-3 ShortCutChatImgContainer">
-            <img class="ProfilePicture" src="/img/pictures/1.jpg" />
-        </div>
-        <div class="col-9" style="margin-top:5px">
-            <div class="row">
-                <div class="col-7 User">
-                    Jorge Argueta
-                </div>
-                <div class="col-4 dateMessage">
-                    9:12pm
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-1 MessageStatusContainer">
-                    <img src="/img/statusViewed.PNG" />
-                </div>
-                <div class="col-11 Message">
-                    Gusto en saludarte
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row ShortCutChat " @onclick="() => GoChat()">
-        <div class="col-3 ShortCutChatImgContainer">
-            <img class="ProfilePicture" src="/img/pictures/2.jpg" />
-        </div>
-        <div class="col-9" style="margin-top:5px">
-            <div class="row">
-                <div class="col-7 User">
-                    Estefan Panameño
-                </div>
-                <div class="col-4 dateMessage">
-                    7:34pm
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-11 Message">
-                    Me parece la idea
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row ShortCutChat " @onclick="() => GoChat()">
-        <div class="col-3 ShortCutChatImgContainer">
-            <img class="ProfilePicture" src="/img/pictures/3.jpg" />
-        </div>
-        <div class="col-9" style="margin-top:5px">
-            <div class="row">
-                <div class="col-7 User">
-                    Angela
-                </div>
-                <div class="col-4 dateMessage">
-                    10:00am
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-1 MessageStatusContainer">
-                    <img src="/img/statusSent.PNG" />
-                </div>
-                <div class="col-11 Message">
-                    Gusto en saludarte
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row ShortCutChat " @onclick="() => GoChat()">
-        <div class="col-3 ShortCutChatImgContainer">
-            <img class="ProfilePicture" src="/img/pictures/4.jpg" />
-        </div>
-        <div class="col-9" style="margin-top:5px">
-            <div class="row">
-                <div class="col-7 User">
-                    Francisca Desarrollador
-                </div>
-                <div class="col-4 dateMessage">
-                    01/10/2021
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-1 MessageStatusContainer">
-                    <img src="/img/statusSent.PNG" />
-                </div>
-                <div class="col-11 Message">
-                    Gusto en saludarte
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row ShortCutChat " @onclick="() => GoChat()">
-        <div class="col-3 ShortCutChatImgContainer">
-            <img class="ProfilePicture" src="/img/pictures/5.jpg" />
-        </div>
-        <div class="col-9" style="margin-top:5px">
-            <div class="row">
-                <div class="col-7 User">
-                    Alejandro Bonilla
-                </div>
-                <div class="col-4 dateMessage">
-                    30/09/2021
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-1 MessageStatusContainer"> 
-                    <img src="/img/statusViewed.PNG" />
-                </div>
-                <div class="col-11 Message">
-                    Gusto en saludarte
-                </div>
-            </div>
-        </div>
-    </div>
-    <button type="button" class="btn landingButton"><img src="/img/newtext.PNG" /></button>
+    @foreach(var chat in data)
+    {
+        <ChatGeneral Value=@chat />
+    }
 </div>
-@code {
+<button type="button" class="btn landingButton"><img src="/img/newtext.PNG" /></button>
 
+@code {
+    List<ChatGeneralEntity> data = new List<ChatGeneralEntity>();
+    protected override async Task OnInitializedAsync()
+    {
+        LoadLastConversations();
+    }
+    public void LoadLastConversations()
+    {
+        data = new List<ChatGeneralEntity>()
+    {
+            new ChatGeneralEntity()
+            {
+                ContactName="Jorge Argueta",
+                LastUpdate = "9:12pm",
+                LastMessage = "Gusto en saludarte",
+                B64Photo = "/img/pictures/1.jpg",
+                LastMessageWasFromTheUser = true,
+                statusViewed = true
+            },
+            new ChatGeneralEntity()
+            {
+                ContactName="Estefan Panameño",
+                LastUpdate = "7:34pm",
+                LastMessage = "Me parece la idea",
+                B64Photo = "/img/pictures/2.jpg",
+                LastMessageWasFromTheUser = false,
+                statusViewed = false
+            },
+            new ChatGeneralEntity()
+            {
+                ContactName="Angela",
+                LastUpdate = "10:00am",
+                LastMessage = "Gusto en saludarte",
+                B64Photo = "/img/pictures/3.jpg",
+                LastMessageWasFromTheUser = true,
+                statusViewed = false
+            },
+            new ChatGeneralEntity()
+            {
+                ContactName="Francisca Desarrollador",
+                LastUpdate = "01/10/2021",
+                LastMessage = "Gusto en saludarte",
+                B64Photo = "/img/pictures/4.jpg",
+                LastMessageWasFromTheUser = false,
+                statusViewed = false
+            },
+            new ChatGeneralEntity()
+            {
+                ContactName="Alejandro Bonilla",
+                LastUpdate = "30/09/2021",
+                LastMessage = "Gusto en saludarte",
+                B64Photo = "/img/pictures/5.jpg",
+                LastMessageWasFromTheUser = true,
+                statusViewed = true
+            },
+        };
+
+    }
     public void GoChat()
     {
         AppState.hide(false);

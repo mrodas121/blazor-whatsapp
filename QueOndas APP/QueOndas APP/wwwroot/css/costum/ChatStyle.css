@@ -67,7 +67,7 @@
 }
 
 .chatBar {
-    width: 305px;
+    width: 85%;
     height: 48px;
     background: #1f2c34;
     position: fixed;
@@ -84,7 +84,7 @@
 
 .chatBar input {
     background: content-box;
-    width: 182px;
+    width: 55%;
     border: none;
     color: white;
 }

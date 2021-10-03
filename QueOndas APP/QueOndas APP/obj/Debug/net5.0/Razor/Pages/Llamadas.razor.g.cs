@@ -86,6 +86,13 @@ using Models.Configuration;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\_Imports.razor"
+using Models;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/llamadas")]
     public partial class Llamadas : Microsoft.AspNetCore.Components.ComponentBase
     {

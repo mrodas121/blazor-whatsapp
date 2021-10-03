@@ -1,0 +1,44 @@
+﻿@inject NavigationManager NavManager
+@inject AppState AppState
+<div class="row ShortCutChat " @onclick="() => GoChat()">
+    <div class="col-3 ShortCutChatImgContainer">
+        <img class="ProfilePicture" src="@Value.B64Photo" />
+    </div>
+    <div class="col-9" style="margin-top:5px">
+        <div class="row">
+            <div class="col-7 User">
+                @Value.ContactName
+            </div>
+            <div class="col-4 dateMessage">
+                @Value.LastUpdate
+            </div>
+        </div>
+        <div class="row">
+            @if(Value.LastMessageWasFromTheUser)
+            {
+                <div class="col-1 MessageStatusContainer">
+                    @if (Value.statusViewed)
+                    { 
+                        <img src="/img/statusViewed.PNG" />
+                    }
+                    else 
+                    {
+                        <img src="/img/statusSent.PNG" /> 
+                    }
+                </div>
+            }
+            <div class="col-11 Message">
+                @Value.LastMessage
+            </div>
+        </div>
+    </div>
+</div>
+@code {
+    [Parameter]
+    public ChatGeneralEntity Value { get; set; }
+    public void GoChat()
+    {
+        AppState.hide(false);
+        NavManager.NavigateTo("/chat");
+    }
+}

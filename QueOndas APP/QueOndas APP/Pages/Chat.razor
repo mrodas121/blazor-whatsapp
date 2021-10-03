@@ -1,18 +1,14 @@
 ﻿@page "/chat"
-@inject AppState AppState
-@inject NavigationManager NavManager
+<ChatNavMenu />
 <div class="MainContentChildFullScreen">
     <h3>Chat</h3>
-    <button type="button" class="btn landingButtonEdit" @onclick="() => ReturnIndex()"><img src="/img/edit.PNG" /></button>
 </div>
-@code {
-    protected override async Task OnInitializedAsync()
-    {
-        AppState.hide(true);
-    }
-    public void ReturnIndex()
-    {
-        AppState.hide(false);
-        NavManager.NavigateTo("/");
-    }
-}
+
+<div class="chatBar">
+    &nbsp;
+    <img src="/img/emojiIco.PNG" />
+    <input type="text" placeholder="Mensaje">
+    <img src="/img/attachIco.PNG" />
+    <img src="/img/camera.PNG" />
+</div>
+<button type="button" class="btn landingButtonRecord"><img src="/img/recordIco.PNG" /></button>

@@ -97,24 +97,6 @@ using Models.Configuration;
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 8 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\Pages\Chat.razor"
-       
-    protected override async Task OnInitializedAsync()
-    {
-        AppState.hide(true);
-    }
-    public void ReturnIndex()
-    {
-        AppState.hide(false);
-        NavManager.NavigateTo("/");
-    }
-
-#line default
-#line hidden
-#nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavManager { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AppState AppState { get; set; }
     }
 }
 #pragma warning restore 1591

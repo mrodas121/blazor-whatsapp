@@ -126,3 +126,5 @@ C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj
 C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Pages\Llamadas.razor.g.cs
 C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Pages\Chat.razor.g.cs
 C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Pages\Chat.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Shared\ChatNavMenu.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Shared\ChatNavMenu.razor.g.cs

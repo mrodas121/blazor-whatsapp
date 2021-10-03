@@ -74,3 +74,31 @@
 .SecondNavBarFixedCostum table {
     width: 100%;
 }
+
+.NavBarFixedChat {
+    color: #e2e8ee;
+    Background: #1f2c34;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    font-size: 13px;
+}
+.NavBarFixedChatContainer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.NavBarFixedChat div {
+    padding: 0px;
+}
+.ProfilePictureChat {
+    border-radius: 50%;
+    width: 37px;
+    margin: 0px;
+}
+
+.NavBarFixedChat a{
+    color: #e2e8ee;
+    font-size: 11px;
+}

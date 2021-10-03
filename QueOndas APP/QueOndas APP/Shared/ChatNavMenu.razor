@@ -1,0 +1,32 @@
+﻿@inject AppState AppState
+@inject NavigationManager NavManager
+<div class="NavBarFixedChat">
+    <div class="row NavBarFixedChatContainer">
+        <div class="col-2" style="margin-left: 18px;">
+            <img src="/img/backIcon.PNG" @onclick="() => ReturnIndex()" />
+            <img class="ProfilePictureChat" src="/img/pictures/5.jpg" />
+        </div>
+        <div class="col-5" style="margin-left: 8px;">
+            Alejandro Bonilla
+            <br />
+            <a>en linea</a>
+        </div>
+        <div class="align-self-end" style="margin-left: 8px;margin-bottom: 5px;">
+            <img src="/img/videoCallIco.PNG" />
+            <img src="/img/callNavBarIco.PNG" />
+            <img src="/img/3dotsChatIco.PNG" />
+        </div>
+    </div>
+</div>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        AppState.hide(true);
+    }
+    public void ReturnIndex()
+    {
+        AppState.hide(false);
+        NavManager.NavigateTo("/");
+    }
+}

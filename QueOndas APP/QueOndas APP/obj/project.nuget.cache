@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "sBfeZkkw/n6p3BE+Izt2z8rpxcOtz/SQndDa5gj8ZQqi7EBMvhsCN9YGzMZCPGlQRAcKFfrXxIPLIpWg5xd3LA==",
+  "dgSpecHash": "KeyHXloz9i8C2TsvnKPPHFK1nAfJ5VVzCCgeJuHb2IYt/t7RC7AteiErVdMionK0UURWsP4VJ8G6Tl71et9fAw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Manuel Rodas\\source\\repos\\blazor-whatsapp\\QueOndas APP\\QueOndas APP\\QueOndas APP.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Manuel Rodas\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\Manuel Rodas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Manuel Rodas\\.nuget\\packages\\microsoft.extensions.http\\5.0.0\\microsoft.extensions.http.5.0.0.nupkg.sha512",
+    "C:\\Users\\Manuel Rodas\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\Manuel Rodas\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Manuel Rodas\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\Manuel Rodas\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Manuel Rodas\\.nuget\\packages\\refit\\6.0.94\\refit.6.0.94.nupkg.sha512",
+    "C:\\Users\\Manuel Rodas\\.nuget\\packages\\refit.httpclientfactory\\6.0.94\\refit.httpclientfactory.6.0.94.nupkg.sha512",
+    "C:\\Users\\Manuel Rodas\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

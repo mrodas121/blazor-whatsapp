@@ -5,10 +5,8 @@ using System.Threading.Tasks;
 
 namespace QueOndas_APP.Models
 {
-    public class ChatGeneralEntity
+    public class ChatGeneralEntity: ContactEntity
     {
-        public string ContactName{get;set;}
-        public string B64Photo { get; set; }
         public string LastUpdate { get; set; }
         public string LastMessage { get; set; }
         public bool LastMessageWasFromTheUser { get; set; }

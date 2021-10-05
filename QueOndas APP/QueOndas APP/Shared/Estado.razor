@@ -1,0 +1,21 @@
+﻿<div class="row ShortCutChat ">
+    <div class="col-3 ShortCutChatImgContainerStatus">
+        <img class="ProfilePicture" src="@Value.B64Photo" />
+    </div>
+    <div class="col-9" style="margin-top:5px">
+        <div class="row">
+            <div class="col-7 User">
+                @Value.ContactName
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-11 Message">
+                @Value.StatusDate
+            </div>
+        </div>
+    </div>
+</div>
+@code {
+    [Parameter]
+    public EstadoGeneralEntity Value { get; set; }
+}

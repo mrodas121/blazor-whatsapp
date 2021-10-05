@@ -96,6 +96,13 @@ using Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 13 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\_Imports.razor"
+using Data.Servicios;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -105,76 +112,18 @@ using Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\Pages\Index.razor"
+#line 11 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\Pages\Index.razor"
        
     List<ChatGeneralEntity> data = new List<ChatGeneralEntity>();
     protected override async Task OnInitializedAsync()
     {
-        LoadLastConversations();
-    }
-    public void LoadLastConversations()
-    {
-        data = new List<ChatGeneralEntity>()
-    {
-            new ChatGeneralEntity()
-            {
-                ContactName="Jorge Argueta",
-                LastUpdate = "9:12pm",
-                LastMessage = "Gusto en saludarte",
-                B64Photo = "/img/pictures/1.jpg",
-                LastMessageWasFromTheUser = true,
-                statusViewed = true
-            },
-            new ChatGeneralEntity()
-            {
-                ContactName="Estefan Panameño",
-                LastUpdate = "7:34pm",
-                LastMessage = "Me parece la idea",
-                B64Photo = "/img/pictures/2.jpg",
-                LastMessageWasFromTheUser = false,
-                statusViewed = false
-            },
-            new ChatGeneralEntity()
-            {
-                ContactName="Angela",
-                LastUpdate = "10:00am",
-                LastMessage = "Gusto en saludarte",
-                B64Photo = "/img/pictures/3.jpg",
-                LastMessageWasFromTheUser = true,
-                statusViewed = false
-            },
-            new ChatGeneralEntity()
-            {
-                ContactName="Francisca Desarrollador",
-                LastUpdate = "01/10/2021",
-                LastMessage = "Gusto en saludarte",
-                B64Photo = "/img/pictures/4.jpg",
-                LastMessageWasFromTheUser = false,
-                statusViewed = false
-            },
-            new ChatGeneralEntity()
-            {
-                ContactName="Alejandro Bonilla",
-                LastUpdate = "30/09/2021",
-                LastMessage = "Gusto en saludarte",
-                B64Photo = "/img/pictures/5.jpg",
-                LastMessageWasFromTheUser = true,
-                statusViewed = true
-            },
-        };
-
-    }
-    public void GoChat()
-    {
-        AppState.hide(false);
-        NavManager.NavigateTo("/chat");
+        data = await chatData.Get();
     }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AppState AppState { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IChatsData chatData { get; set; }
     }
 }
 #pragma warning restore 1591

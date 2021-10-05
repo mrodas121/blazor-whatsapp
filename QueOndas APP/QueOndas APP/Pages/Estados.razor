@@ -1,5 +1,5 @@
 ﻿@page "/estados"
-
+@inject IEstadosData estadosData;
 <div class="MainContentChild">
     <div class="row ShortCutChat ">
         <div class="col-3 ShortCutChatImgContainer">
@@ -23,43 +23,17 @@
             Recientes
         </div>
     </div>
-    <div class="row ShortCutChat ">
-        <div class="col-3 ShortCutChatImgContainerStatus">
-            <img class="ProfilePicture" src="/img/pictures/5.jpg" />
-        </div>
-        <div class="col-9" style="margin-top:5px">
-            <div class="row">
-                <div class="col-7 User">
-                    Alejandro Bonilla
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-11 Message">
-                    Hoy 9:18am
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row ShortCutChat ">
-        <div class="col-3 ShortCutChatImgContainerStatus">
-            <img class="ProfilePicture" src="/img/pictures/2.jpg" />
-        </div>
-        <div class="col-9" style="margin-top:5px">
-            <div class="row">
-                <div class="col-7 User">
-                    Estefan Panameño
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-11 Message">
-                    Hoy 6:21am
-                </div>
-            </div>
-        </div>
-    </div>
+    @foreach (var estado in data)
+    {
+        <Estado Value=@estado />
+    }
     <button type="button" class="btn landingButtonEdit"><img src="/img/edit.PNG" /></button>
     <button type="button" class="btn landingButton"><img src="/img/cameraIco.PNG" /></button>
 </div>
 @code {
-
+    List<EstadoGeneralEntity> data = new List<EstadoGeneralEntity>();
+    protected override async Task OnInitializedAsync()
+    {
+        data = await estadosData.Get();
+    }
 }

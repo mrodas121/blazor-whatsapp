@@ -96,6 +96,13 @@ using Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 13 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\_Imports.razor"
+using Data.Servicios;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/llamadas")]
     public partial class Llamadas : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -104,6 +111,19 @@ using Models;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 10 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\Pages\Llamadas.razor"
+       
+    List<LlamadaGeneralEntity> data = new List<LlamadaGeneralEntity>();
+    protected override async Task OnInitializedAsync()
+    {
+        data = await llamadasData.Get();
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ILlamadasData llamadasData { get; set; }
     }
 }
 #pragma warning restore 1591

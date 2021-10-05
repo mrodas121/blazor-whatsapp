@@ -130,3 +130,9 @@ C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj
 C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Shared\ChatNavMenu.razor.g.cs
 C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Shared\ChatGeneral.razor.g.cs
 C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Shared\ChatGeneral.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Shared\Llamada.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Shared\Llamada.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\RazorDeclaration\Shared\Estado.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\obj\Debug\net5.0\Razor\Shared\Estado.razor.g.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\Refit.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\bin\Debug\net5.0\Refit.HttpClientFactory.dll

@@ -1,0 +1,29 @@
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\bin\Debug\net5.0\appsettings.json
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\bin\Debug\net5.0\QueOndas APP.WebApi.exe
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\bin\Debug\net5.0\QueOndas APP.WebApi.deps.json
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\bin\Debug\net5.0\QueOndas APP.WebApi.runtimeconfig.json
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\bin\Debug\net5.0\QueOndas APP.WebApi.runtimeconfig.dev.json
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\bin\Debug\net5.0\QueOndas APP.WebApi.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\bin\Debug\net5.0\ref\QueOndas APP.WebApi.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\bin\Debug\net5.0\QueOndas APP.WebApi.pdb
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\QueOndas APP.WebApi.csprojAssemblyReference.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\QueOndas APP.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\QueOndas APP.WebApi.AssemblyInfoInputs.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\QueOndas APP.WebApi.AssemblyInfo.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\QueOndas APP.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\QueOndas APP.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\QueOndas APP.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\staticwebassets\QueOndas APP.WebApi.StaticWebAssets.Manifest.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\staticwebassets\QueOndas APP.WebApi.StaticWebAssets.xml
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\scopedcss\bundle\QueOndas APP.WebApi.styles.css
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\QueOndas APP.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\QueOndas APP.WebApi.csproj.CopyComplete
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\QueOndas APP.WebApi.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\ref\QueOndas APP.WebApi.dll
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\QueOndas APP.WebApi.pdb
+C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP.WebApi\obj\Debug\net5.0\QueOndas APP.WebApi.genruntimeconfig.cache

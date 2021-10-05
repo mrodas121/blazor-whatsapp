@@ -96,6 +96,13 @@ using Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 13 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\_Imports.razor"
+using Data.Servicios;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/estados")]
     public partial class Estados : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -104,6 +111,19 @@ using Models;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 33 "C:\Users\Manuel Rodas\source\repos\blazor-whatsapp\QueOndas APP\QueOndas APP\Pages\Estados.razor"
+       
+    List<EstadoGeneralEntity> data = new List<EstadoGeneralEntity>();
+    protected override async Task OnInitializedAsync()
+    {
+        data = await estadosData.Get();
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IEstadosData estadosData { get; set; }
     }
 }
 #pragma warning restore 1591
